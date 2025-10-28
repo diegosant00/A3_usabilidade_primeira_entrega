@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NextLevel - Loja de Games</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <div class="logo">Next<span>Level</span></div>
+      <!-- <div class="support">Suporte</div> -->
+      <div class="user-actions" id="user-section">
+       
+      </div>
+    </div>
+
+      <nav class="menu">
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li class="dropdown-menu-item">
+            <a href="#" class="dropdown-trigger">Categorias</a>
+            
+            <ul class="submenu">
+                <li><a href="#rpg-section">RPG</a></li>
+                <li><a href="#">Ação</a></li>
+                <li><a href="#">Aventura</a></li>
+                <li><a href="#">Tiro</a></li>
+                <li><a href="#">Simulação</a></li>
+                <li><a href="#">Puzzle</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Mais vendidos</a></li>
+      </ul>
+      <div class="search-bar">
+        <input type="text" placeholder="Procurar na loja">
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="section-h1">
+        <h1>Recomendados da Semana</h1>
+      </section>
+
+    <!-- Carrossel -->
+    <section class="carousel">
+
+      <button class="arrow left" aria-label="Anterior">❮</button>
+      
+      <div class="carousel-viewport">
+        <div class="carousel-track">
+          <div class="card">Horizon Zero Dawn</div>
+          <div class="card">Call of Duty: Modern Warfare</div>
+          <div class="card">Grand Theft Auto V</div>
+          <div class="card">Bloodborne</div>
+          <div class="card">Sekiro: Shadows Die Twice</div>
+          <div class="card">The Elder Scrolls V: Skyrim</div>
+          <div class="card">Resident Evil 7 Biohazard</div>
+          <div class="card">Monster Hunter: World</div>
+          <div class="card">Persona 5 Royal</div>
+          <div class="card">Yakuza: Like a Dragon</div>
+          <div class="card">Among Us</div>
+          <div class="card">A Lenda do Herói</div>
+        </div>
+      </div>
+    
+      <button class="arrow right" aria-label="Próximo">❯</button>
+      <div class="dots"></div>
+    </section
+
+     <!-- Recomendados -->
+    <section class="section">
+      <h2>Melhores Jogos</h2>
+      <div class="grid">
+        <a href="jogo.html?id=1" class="card-link">
+          <div class="card">Red Dead Redemption II</div>
+        </a>
+        <div class="card">Fallout 4</div>
+        <div class="card">Cyberpunk 2077</div>
+        <div class="card">Minecraft</div>
+      </div>
+    </section>
+
+    <!-- Em Alta -->
+    <section class="section">
+      <h2>Em Alta</h2>
+      <div class="grid">
+        <div class="card">The Witcher 3: Wild Hunt</div>
+        <div class="card">Grand Theft Auto V</div>
+        <a href="jogo.html?id=2" class="card-link">
+          <div class="card">The Legend of Zelda: Breath of the Wild</div>
+        </a>
+        <div class="card">Stardew Valley</div>
+      </div>
+    </section>
+
+    <!-- RPG -->
+    <section class="section">
+      <h2 id="rpg-section">RPG</h2>
+      <div class="grid">
+        <div class="card">Cyberpunk 2077</div>
+        <div class="card">Monster Hunter: World</div>
+        <div class="card">Persona 5 Royal</div>
+        <div class="card">Horizon Zero Dawn</div>
+      </div>
+    </section>
+  </main>
+  <script src="database.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
